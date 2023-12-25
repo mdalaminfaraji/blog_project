@@ -41,12 +41,13 @@ INSTALLED_APPS = [
     "crispy_bootstrap5",
     'author',
     'posts',
-    'profiles',
     'categories'
 ]
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 CRISPY_TEMPLATE_PACK = "bootstrap5"
+
+LOGIN_URL='/author/login'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
